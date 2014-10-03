@@ -13,10 +13,13 @@ int main() // This line initiates the declaration of a function
   	int a; // Accept an integer entry
 	cin >> a;
 	while( a != 42) {
-		cout << a << endl;}
+		cout << a << endl;
+		cin >> a;}
 	return 0;
 }
 */
+
+// Note that the initial transaction timed out because of the while loop error & because I forgot cin >> a
 
 #include <iostream>
 using namespace std;
@@ -31,5 +34,5 @@ int main() {
 	return 0;
 }
 
-// Note that the initial transaction timed out because of the while loop (hypothesis)
+
 
